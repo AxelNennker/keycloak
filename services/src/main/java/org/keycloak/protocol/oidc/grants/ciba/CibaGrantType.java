@@ -74,6 +74,7 @@ public class CibaGrantType extends OAuth2GrantTypeBase {
 
     public static final String IS_CONSENT_REQUIRED = "is_consent_required";
     public static final String LOGIN_HINT = "login_hint";
+    public static final String ID_TOKEN_HINT = "id_token_hint";
     public static final String LOGIN_HINT_TOKEN = "login_hint_token";
     public static final String BINDING_MESSAGE = "binding_message";
     public static final String AUTH_REQ_ID = "auth_req_id";
