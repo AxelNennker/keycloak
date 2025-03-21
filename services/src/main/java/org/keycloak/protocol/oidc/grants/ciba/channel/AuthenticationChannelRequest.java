@@ -37,6 +37,9 @@ public class AuthenticationChannelRequest {
     @JsonProperty(CibaGrantType.LOGIN_HINT)
     private String loginHint;
 
+    @JsonProperty(CibaGrantType.ID_TOKEN_HINT)
+    private String idTokenHint;
+
     @JsonProperty(CibaGrantType.IS_CONSENT_REQUIRED)
     private Boolean consentRequired;
 
@@ -57,6 +60,10 @@ public class AuthenticationChannelRequest {
 
     public void setLoginHint(String loginHint) {
         this.loginHint = loginHint;
+    }
+
+    public void setIdTokenHint(String idTokenHint) {
+        this.idTokenHint = idTokenHint;
     }
 
     public String getLoginHint() {
